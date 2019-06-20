@@ -1,4 +1,12 @@
-# ember-modal-service [![Build Status](https://travis-ci.org/BBVAEngineering/ember-modal-service.svg?branch=master)](https://travis-ci.org/BBVAEngineering/ember-modal-service) [![GitHub version](https://badge.fury.io/gh/BBVAEngineering%2Fember-modal-service.svg)](https://badge.fury.io/gh/BBVAEngineering%2Fember-modal-service) [![Dependency Status](https://david-dm.org/BBVAEngineering/ember-modal-service.svg)](https://david-dm.org/BBVAEngineering/ember-modal-service)
+# ember-modal-service
+
+[![Build Status](https://travis-ci.org/BBVAEngineering/ember-modal-service.svg?branch=master)](https://travis-ci.org/BBVAEngineering/ember-modal-service)
+[![GitHub version](https://badge.fury.io/gh/BBVAEngineering%2Fember-modal-service.svg)](https://badge.fury.io/gh/BBVAEngineering%2Fember-modal-service)
+[![NPM version](https://badge.fury.io/js/ember-modal-service.svg)](https://badge.fury.io/js/ember-modal-service)
+[![Dependency Status](https://david-dm.org/BBVAEngineering/ember-modal-service.svg)](https://david-dm.org/BBVAEngineering/ember-modal-service)
+[![codecov](https://codecov.io/gh/BBVAEngineering/ember-modal-service/branch/master/graph/badge.svg)](https://codecov.io/gh/BBVAEngineering/ember-modal-service)
+[![Greenkeeper badge](https://badges.greenkeeper.io/BBVAEngineering/ember-modal-service.svg)](https://greenkeeper.io/)
+[![Ember Observer Score](https://emberobserver.com/badges/ember-modal-service.svg)](https://emberobserver.com/addons/ember-modal-service)
 
 An [ember-cli addon](http://www.ember-cli.com/) to manage modals as promises.
 
@@ -68,3 +76,16 @@ Base modal component provides `resolve` & `reject` actions so you can implement 
 ## Contribute
 
 If you want to contribute to this addon, please read the [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/BBVAEngineering/ember-modal-service/tags).
+
+
+## Authors
+
+See the list of [contributors](https://github.com/BBVAEngineering/ember-modal-service/graphs/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

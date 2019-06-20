@@ -1,16 +1,12 @@
 /* eslint-disable quote-props, no-magic-numbers */
-import Ember from 'ember';
+import Component from '@ember/component';
+import RSVP from 'rsvp';
+import { camelize } from '@ember/string';
+import { computed } from '@ember/object';
 import { hasTransitions, onTransitionEnd } from 'ember-modal-service/utils/css-transitions';
-
-const {
-	Component,
-	computed,
-	inject: { service },
-	on,
-	String: { camelize },
-	RSVP,
-	run
-} = Ember;
+import { inject as service } from '@ember/service';
+import { on } from '@ember/object/evented';
+import { run } from '@ember/runloop';
 
 /**
  * Component to wrap modal objects.
@@ -49,15 +45,15 @@ export default Component.extend({
 	 * @property attributeBindings
 	 * @type Array
 	 */
-	attributeBindings: ['data-modal-show', 'role', 'data-id'],
+	attributeBindings: ['data-modal-show', 'data-id'],
 
 	/**
 	 * HTML role.
 	 *
-	 * @property role
+	 * @property ariaRole
 	 * @type String
 	 */
-	role: 'dialog',
+	ariaRole: 'dialog',
 
 	/**
 	 * Modal is visible/hidden.
@@ -171,7 +167,7 @@ export default Component.extend({
 		}
 
 		const scheduler = this.get('scheduler');
-		const element = this.$().get(0);
+		const element = this.element;
 
 		// Close modal.
 		this.set('visible', false);

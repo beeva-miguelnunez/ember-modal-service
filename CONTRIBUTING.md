@@ -7,7 +7,10 @@ This doc outlines the details of collaborating on this Ember addon.
 * `git clone <repository-url>` this repository
 * `cd <addon-name>`
 * `npm install`
-* `bower install`
+
+## Eslint
+
+You need to follow our [eslint](https://github.com/BBVAEngineering/javascript/tree/master/eslint-config-bbva) rules.
 
 ## Running
 
